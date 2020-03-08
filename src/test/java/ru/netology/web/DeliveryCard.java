@@ -38,7 +38,7 @@ public class DeliveryCard {
     }
 
     @Test
-    void shouldTest() {
+    void positiveTestFillingOutTheCardDeliveryForm() {
         city.setValue("Москва");
         cityClick.waitUntil(exist, 5000).click();
         date.doubleClick().sendKeys(Keys.BACK_SPACE);
